@@ -1,27 +1,26 @@
 # Description
 
-In this lab, students were asked to design 'Icicle Harvest', a simple
-game in which a square slug flies around the screen and maneuvers around
+This is a Markdown conversion of a write up for this project I initially made in LaTeX. Please excuse some of the conversion jank.
+
+'Icicle Harvest' is a simple
+game made for CSE 100 in which a square "slug" flies around the screen and maneuvers around
 different colored icicles falling from the ceiling for score. The slug
 is controlled with left, right, and up buttons on the FPGA and the score
-is displayed on the seven segment display on the board. When the game
-first begins, the slug is at rest on a iceberg above a pool of water,
+is displayed on the seven segment display on the Basys 3 board. When the game
+first begins, the slug is at rest on an iceberg above a pool of water,
 perched in the middle of the screen. It is free to move around the
 screen, though if it lands in the water the slug sinks to the bottom and
 the game is over. The game begins when the center button on the board is
-pressed, and over a random amount of time different colored icicles
+pressed and, over a random amount of time, different colored icicles
 begin to fall from the ceiling. If the slug comes in contact with one of
 these icicles, it freezes for a couple seconds before the icicle
 disappears and begins to re-spawn. A point is either subtracted or
 awarded from the slug depending on the randomly assigned color of the
 icicle, with teal icicles awarding a point and magenta icicles
 subtracting a point. The design of this game must be synchronous with
-the clock on the Basys 3 FPGA, and similar to previous labs must only
-use assign statements in Verilog. Dissimilar to the last labs, students
-were allowed to use basic arithmetic operations in their design such as
-addition, subtraction, and comparison operators. This lab was also the
-first to utilize the VGA port provided on the board, and the game is
-displayed on a full color RGB VGA monitor. This lab was the culmination
+the clock on the FPGA, and must only use assign statements in Verilog (for learning purposes). 
+This lab utilizes the VGA port on the board, and the game is
+displayed on a full color RGB VGA monitor at 60 frames per second. This lab was the culmination
 of all the skills gained from previous labs in the class, and the most
 complex lab by far.
 
@@ -96,7 +95,7 @@ every quarter second and flash the slug and icicles when needed.
 ## Slug State
 
 ![Slug State Machine](resources/slug-states.jpg)
-
+*State Machine for controlling the Slug* 
 The slug state machine was interesting because as the program developed
 further, the amount of states and their purpose for the slug simplified
 more and more. Eventually two states were settled on for the slug:
@@ -115,6 +114,7 @@ icicle the slug collided with and its corresponding color.
 ## Icicles
 
 ![Icicle State Machine](resources/icicle-states.jpg)
+*State Machine for the Icicles*
 
 The icicles are implemented with 10 identical modules, which each
 contain their respective icicle's state machine as well as its position
@@ -253,11 +253,14 @@ simulations for the syncs can be found in this write up appendix.
 
 ![Simulation of Vsync going low on correct values of pixel
 address](appendix/Vsync-sim.png) 
+*Vsync module simulation testing*
 
 ![Clock Summary of Timing
 Analysis](appendix/Clock-summary.png)
+*Clock Summary of Timing Analysis*
 
 ![Design Timing Summary of Timing
 Analysis](appendix/Design-timing-summary.png)
+*Summary of Timing Analysis*
 
 
