@@ -30,6 +30,7 @@ complex lab by far.
 ## Top Level Design
 
 ![Top Level Design](resources/topleveldesign.jpg)
+*Top Level Design*
 
 Despite the complexity of the lab, this was one of the lightest top
 levels of any of the labs done previously. The top level design is
