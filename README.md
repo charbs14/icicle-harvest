@@ -29,7 +29,7 @@ complex lab by far.
 
 ## Top Level Design
 
-![Top Level Design](topleveldesign.jpg){#fig:enter-label width="100%"}
+![Top Level Design](resources/topleveldesign.jpg){#fig:enter-label width="100%"}
 
 Despite the complexity of the lab, this was one of the lightest top
 levels of any of the labs done previously. The top level design is
@@ -94,7 +94,7 @@ every quarter second and flash the slug and icicles when needed.
 
 ## Slug State
 
-![Slug State Machine](slug-states.jpg){#fig:enter-label width="100%"}
+![Slug State Machine](resources/slug-states.jpg){#fig:enter-label width="100%"}
 
 The slug state machine was interesting because as the program developed
 further, the amount of states and their purpose for the slug simplified
@@ -113,7 +113,7 @@ icicle the slug collided with and its corresponding color.
 
 ## Icicles
 
-![Icicle State Machine](icicle-states.jpg){#fig:enter-label
+![Icicle State Machine](resources/icicle-states.jpg){#fig:enter-label
 width="100%"}
 
 The icicles are implemented with 10 identical modules, which each
