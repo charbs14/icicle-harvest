@@ -248,7 +248,7 @@ This means that the highest possible clock frequency that this program
 could work with would be 63.335 Mhz. The timing report as well as
 simulations for the syncs can be found in this write up appendix.
 
-# Appendix {#appendix .unnumbered}
+# Appendix 
 
 ![Simulation of Vsync going low on correct values of pixel
 address](appendix/Vsync-sim.png) 
@@ -259,71 +259,4 @@ Analysis](appendix/Clock-summary.png)
 ![Design Timing Summary of Timing
 Analysis](appendix/Design-timing-summary.png)
 
-![Note book page figuring out collision
-detection](appendix/nb-collisiondetectioneqs.pdf){#fig:enter-label
-width="100%"}
 
-![Note book page figuring out the drawing of the
-iceberg](appendix/nb-iceberg.pdf) 
-
-![Note book page figuring out the collision equations between the icicle
-and slug](appendix/nb-icicle-slug-collision.pdf){#fig:enter-label
-width="100%"}
-
-![Note book page figuring out how to assign a random wait time between
-2.5 and 4 seconds](appendix/nb-randomspawn.pdf){#fig:enter-label
-width="100%"}
-
-![Note book page figuring out how to stop movement whenever slug
-collides with static
-objects](appendix/nb-slugcollisions.pdf) 
-
-![Note book page figuring out starting position of
-slug](appendix/nb-slugstartingpos.pdf) 
-
-![Note book page figuring out the drawing of slug with
-counters](appendix/nb-theslug.pdf) 
-
-![Top Module p1](appendix/lab-top.pdf) 
-
-![Top Module p2](appendix/lab-top.pdf) 
-
-![gameRGB Module p1](appendix/gameRGB.pdf) 
-
-![gameRGB Module p2](appendix/gameRGB.pdf) 
-
-![gameRGB Module p3](appendix/gameRGB.pdf) 
-
-![gameRGB Module p4](appendix/gameRGB.pdf) 
-
-![Pixel Address Module](appendix/pixelAddress.pdf) 
-
-![VGA Syncs Module](appendix/VGASynces.pdf) 
-
-![Slug State Machine Module](appendix/slugstate.pdf) 
-
-![Icicle Logic p1](appendix/icicle-logic.pdf) 
-
-![Icicle Logic p2](appendix/icicle-logic.pdf) 
-
-![Icicle State Machine p1](appendix/icicle-state.pdf) 
-
-![Icicle State Machine p2](appendix/icicle-state.pdf) 
-
-![Choose Color Module](appendix/chooseColor.pdf) 
-
-![Sync Test Simulation p1](appendix/Sync-TEST.pdf) 
-
-![Sync Test Simulation p2](appendix/Sync-TEST.pdf) 
-
-![Sync Test Simulation p3](appendix/Sync-TEST.pdf) 
-
-![Sync Test Simulation p4](appendix/Sync-TEST.pdf) 
-
-![Sync Test Simulation p5](appendix/Sync-TEST.pdf) 
-
-![Sync Test Simulation p6](appendix/Sync-TEST.pdf) 
-
-![Icicle State Test p1](appendix/iciclestate-TEST.pdf) 
-
-![Icicle State Test p2](appendix/iciclestate-TEST.pdf) 
