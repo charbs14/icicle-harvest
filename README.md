@@ -29,7 +29,7 @@ complex lab by far.
 
 ## Top Level Design
 
-![Top Level Design](resources/topleveldesign.jpg){#fig:enter-label width="100%"}
+![Top Level Design](resources/topleveldesign.jpg)
 
 Despite the complexity of the lab, this was one of the lightest top
 levels of any of the labs done previously. The top level design is
@@ -94,7 +94,7 @@ every quarter second and flash the slug and icicles when needed.
 
 ## Slug State
 
-![Slug State Machine](resources/slug-states.jpg){#fig:enter-label width="100%"}
+![Slug State Machine](resources/slug-states.jpg)
 
 The slug state machine was interesting because as the program developed
 further, the amount of states and their purpose for the slug simplified
@@ -113,8 +113,7 @@ icicle the slug collided with and its corresponding color.
 
 ## Icicles
 
-![Icicle State Machine](resources/icicle-states.jpg){#fig:enter-label
-width="100%"}
+![Icicle State Machine](resources/icicle-states.jpg)
 
 The icicles are implemented with 10 identical modules, which each
 contain their respective icicle's state machine as well as its position
@@ -168,7 +167,6 @@ was reused from lab 5.
 
 # Testing and Simulation
 
-.
 
 ## Top Level Simulation
 
@@ -253,21 +251,20 @@ simulations for the syncs can be found in this write up appendix.
 # Appendix {#appendix .unnumbered}
 
 ![Simulation of Vsync going low on correct values of pixel
-address](appendix/Vsync-sim.png){#fig:enter-label width="100%"}
+address](appendix/Vsync-sim.png) 
 
 ![Clock Summary of Timing
-Analysis](appendix/Clock-summary.png){#fig:enter-label width="100%"}
+Analysis](appendix/Clock-summary.png)
 
 ![Design Timing Summary of Timing
-Analysis](appendix/Design-timing-summary.png){#fig:enter-label
-width="100%"}
+Analysis](appendix/Design-timing-summary.png)
 
 ![Note book page figuring out collision
 detection](appendix/nb-collisiondetectioneqs.pdf){#fig:enter-label
 width="100%"}
 
 ![Note book page figuring out the drawing of the
-iceberg](appendix/nb-iceberg.pdf){#fig:enter-label width="100%"}
+iceberg](appendix/nb-iceberg.pdf) 
 
 ![Note book page figuring out the collision equations between the icicle
 and slug](appendix/nb-icicle-slug-collision.pdf){#fig:enter-label
@@ -279,76 +276,54 @@ width="100%"}
 
 ![Note book page figuring out how to stop movement whenever slug
 collides with static
-objects](appendix/nb-slugcollisions.pdf){#fig:enter-label width="100%"}
+objects](appendix/nb-slugcollisions.pdf) 
 
 ![Note book page figuring out starting position of
-slug](appendix/nb-slugstartingpos.pdf){#fig:enter-label width="100%"}
+slug](appendix/nb-slugstartingpos.pdf) 
 
 ![Note book page figuring out the drawing of slug with
-counters](appendix/nb-theslug.pdf){#fig:enter-label width="100%"}
+counters](appendix/nb-theslug.pdf) 
 
-![Top Module p1](appendix/lab-top.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Top Module p1](appendix/lab-top.pdf) 
 
-![Top Module p2](appendix/lab-top.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Top Module p2](appendix/lab-top.pdf) 
 
-![gameRGB Module p1](appendix/gameRGB.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![gameRGB Module p1](appendix/gameRGB.pdf) 
 
-![gameRGB Module p2](appendix/gameRGB.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![gameRGB Module p2](appendix/gameRGB.pdf) 
 
-![gameRGB Module p3](appendix/gameRGB.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![gameRGB Module p3](appendix/gameRGB.pdf) 
 
-![gameRGB Module p4](appendix/gameRGB.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![gameRGB Module p4](appendix/gameRGB.pdf) 
 
-![Pixel Address Module](appendix/pixelAddress.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Pixel Address Module](appendix/pixelAddress.pdf) 
 
-![VGA Syncs Module](appendix/VGASynces.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![VGA Syncs Module](appendix/VGASynces.pdf) 
 
-![Slug State Machine Module](appendix/slugstate.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Slug State Machine Module](appendix/slugstate.pdf) 
 
-![Icicle Logic p1](appendix/icicle-logic.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle Logic p1](appendix/icicle-logic.pdf) 
 
-![Icicle Logic p2](appendix/icicle-logic.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle Logic p2](appendix/icicle-logic.pdf) 
 
-![Icicle State Machine p1](appendix/icicle-state.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle State Machine p1](appendix/icicle-state.pdf) 
 
-![Icicle State Machine p2](appendix/icicle-state.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle State Machine p2](appendix/icicle-state.pdf) 
 
-![Choose Color Module](appendix/chooseColor.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Choose Color Module](appendix/chooseColor.pdf) 
 
-![Sync Test Simulation p1](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p1](appendix/Sync-TEST.pdf) 
 
-![Sync Test Simulation p2](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p2](appendix/Sync-TEST.pdf) 
 
-![Sync Test Simulation p3](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p3](appendix/Sync-TEST.pdf) 
 
-![Sync Test Simulation p4](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p4](appendix/Sync-TEST.pdf) 
 
-![Sync Test Simulation p5](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p5](appendix/Sync-TEST.pdf) 
 
-![Sync Test Simulation p6](appendix/Sync-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Sync Test Simulation p6](appendix/Sync-TEST.pdf) 
 
-![Icicle State Test p1](appendix/iciclestate-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle State Test p1](appendix/iciclestate-TEST.pdf) 
 
-![Icicle State Test p2](appendix/iciclestate-TEST.pdf){#fig:enter-label
-width=".85\\linewidth"}
+![Icicle State Test p2](appendix/iciclestate-TEST.pdf) 
