@@ -1,5 +1,6 @@
 
-https://lucasreeves.me/resources/demo.mov
+![demo](resources/demo.mov)
+*Demo*
 
 # Description
 
