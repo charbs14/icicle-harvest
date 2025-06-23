@@ -6,7 +6,7 @@
 This is a Markdown conversion of a write up for this project I initially made in LaTeX. Please excuse some of the conversion jank.
 
 'Icicle Harvest' is a simple
-game made for CSE 100 in which a square "slug" flies around the screen and maneuvers around
+game made for my final project in a digital logic class in which a square "slug" flies around the screen and maneuvers around
 different colored icicles falling from the ceiling for score. The slug
 is controlled with left, right, and up buttons on the FPGA and the score
 is displayed on the seven segment display on the Basys 3 board. When the game
