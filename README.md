@@ -1,6 +1,5 @@
 
 ![demo](resources/demo.mov)
-*Demo*
 
 # Description
 
